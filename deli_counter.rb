@@ -7,7 +7,7 @@ def line(customer_order)
   else 
     customer_order.each_with_index do |name, index|
       binding.pry
-    labeled_customer_names << "#{index + 1 name
+    labeled_customer_names << index + 1 name
     puts "The line is currently:" + customer_order.join(" ")
     end 
   end 
