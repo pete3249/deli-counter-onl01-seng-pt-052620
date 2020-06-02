@@ -18,6 +18,6 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
     katz_deli << "#{name}"
-    puts "Welcome, #{name}. You are number #{array.length} in line."
+    puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
   end 
 end
