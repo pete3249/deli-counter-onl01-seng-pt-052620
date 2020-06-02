@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.length == 0
-    puts "Welcome, #{name}. You are number 1 inline."
+    puts "Welcome, #{name}. You are number 1 in line."
   else
     puts "Hi"
   end 
