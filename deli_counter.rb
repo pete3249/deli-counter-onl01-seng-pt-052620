@@ -1,5 +1,5 @@
 def line(order)
   katz_deli = []
-  if order == 0
+  if katz_deli[0] == nil
     puts "The line is currently empty"
 end
