@@ -6,9 +6,8 @@ def line(customer_order)
     puts "The line is currently empty."
   else 
     customer_order.each_with_index do |name, index|
-      binding.pry
-    labeled_customer_names << index + 1 name
-    puts "The line is currently:" + customer_order.join(" ")
-    end 
+    labeled_customer_names << "#{index}. #{name}"
+    end
+    puts "The line is currently:" + labeled_customer_names.join(" ")
   end 
 end
