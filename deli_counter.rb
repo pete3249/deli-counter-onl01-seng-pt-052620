@@ -24,7 +24,8 @@ end
 
 def now_serving(katz_deli)
   if katz_deli != nil
-    puts 
+    puts "Currently serving #{katz_deli.first}."
+    katz_deli.shift
   else
     puts "There is nobody waiting to be served!"
   end 
