@@ -5,6 +5,6 @@ def line(customer_order)
     puts "The line is currently empty."
     binding.pry
   else 
-    puts "The line is currently:" + katz_deli.join(" ")
+    puts "The line is currently:" + customer_order.join(" ")
   end 
 end
