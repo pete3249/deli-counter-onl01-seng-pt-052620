@@ -8,6 +8,6 @@ def line(customer_order)
     customer_order.each_with_index do |name, index|
     labeled_customer_names << "#{index + 1}. #{name}"
     end
-    puts "The line is currently:" + labeled_customer_names.join(" ")
+    puts "The line is currently: " + labeled_customer_names.join(" ")
   end 
 end
