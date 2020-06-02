@@ -15,7 +15,7 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli.length == 0
     binding.pry
-    katz_deli << "1." name
+    katz_deli << "1."
   else
     
   end 
